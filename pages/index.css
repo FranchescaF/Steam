@@ -1,0 +1,12 @@
+@import url("../vendor/normalize.css");
+@import url("../fonts/inter.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/header.css");
+
+* {
+  margin: 0;
+}
+.page {
+  background: #1b2838;
+  color: white;
+}
