@@ -2,11 +2,30 @@
 @import url("../fonts/inter.css");
 @import url("../blocks/nav.css");
 @import url("../blocks/header.css");
+@import url("../blocks/portada.css");
+@import url("../blocks/trailers.css");
+@import url("../blocks/contact.css");
+@import url("../blocks/cards.css");
+@import url("../blocks/about.css");
 
 * {
   margin: 0;
 }
+
+body {
+  background-color: #000000;
+  margin: 0; /* Elimina los márgenes predeterminados del body */
+  padding: 0; /* Elimina el padding predeterminado del body */
+}
+
 .page {
-  background: #1b2838;
   color: white;
+  margin: auto;
+  font-family: "Inter", Arial, sans-serif; /* Asegura que haya una fuente de respaldo genérica */
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 1600px;
+  width: 100%;
+  display: block;
+  text-size-adjust: 100%; /* Esta propiedad ahora es estándar, prefijos eliminados */
 }

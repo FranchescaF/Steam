@@ -3,13 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>STEAM</title>
+    <title>PORTAL DE VIDEOJUEGOS</title>
     <meta name="author" content="Franchesca Fatima Zelaya" />
     <meta name="description" content="Página Web sobre Videojuegos" />
-    <meta
-      name="keywords"
-      content="proyecto, html, css, java script, popup, modal"
-    />
+    <meta name="keywords" content="proyecto, html, css, steam, videojuegos" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
@@ -21,13 +18,121 @@
         alt="Logo de Videojuegos"
       />
       <nav class="nav">
-        <h3 class="nav__options">TIENDA</h3>
-        <h3 class="nav__options">COMUNIDAD</h3>
-        <h3 class="nav__options">ACERCA DE</h3>
-        <h3 class="nav__options">SOPORTE</h3>
+        <h3 class="nav__options">SOBRE</h3>
+        <h3 class="nav__options">VIDEOJUEGOS</h3>
+        <h3 class="nav__options">TRAILERS</h3>
+        <h3 class="nav__options">CONTACT</h3>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section class="portada">
+        <h2 class="portada__subtitle">
+          Disfruta y conoce más sobre tus videojuegos favoritos
+        </h2>
+        <h1 class="portada__title">Videojuegos</h1>
+        <button>Start<button>
+      </section>
+      <section class="about">
+        <h2 class="about__title">
+          STEAM
+        </h2>
+        <p class="about__paragraph">Steam es una plataforma de distribución digital de videojuegos desarrollada por Valve Corporation. Se lanzó en 2003 y se ha convertido en una de las principales tiendas en línea para comprar, descargar y gestionar juegos en PC, Mac y Linux.        </p>
+        <p class="about__paragraph">Es una de las plataformas más influyentes en la industria del gaming, con millones de usuarios activos y una gran comunidad de desarrolladores. 🎮🔥        </p>
+      </section>
+      <section class="cards">
+        <div class="card">
+          <h2 class="card__title">Left 4 Dead 2</h2>
+          <img class="card_image" src="https://assets-prd.ignimgs.com/2021/12/10/left4dead2-1639126647529.jpg" alt="Left4Dead2" />
+          <p class="card__description">Videojuego de disparos en primera persona cooperativo de tipo videojuego de terror creado por la compañía Valve.</p>
+          <div class="card__list">
+            <p class="card__gender"><strong>Género:</strong>Zombies</p>
+            <p class="card__year"><strong>Año:</strong>2008</p>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title"></h2>
+          <img class="card_image" src="https://wallpapers.com/images/featured/imagenes-de-call-of-duty-7lrqnchbx478ucgg.jpg" alt="Call of Duty" />
+          <p class="card__description"></p>
+          <div class="card__list">
+            <p class="card__gender"><strong>Género:</strong>Guerra</p>
+            <p class="card__year"><strong>Año:</strong> </p>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title"></h2>
+          <img class="card_image" src="./images/overcooked.jpg" alt="Overcooked" />
+          <p class="card__description">Videojuego de simulación de cocina de 2016 desarrollado por Ghost Town Games</p>
+          <div class="card__list">
+            <p class="card__gender"><strong>Género:</strong>Cocina</p>
+            <p class="card__year"><strong>Año:</strong>2016</p>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title"></h2>
+          <img class="card_image" src="./images/dying-light.jpg" alt="DyingLight2" />
+          <p class="card__description"></p>
+          <div class="card__list">
+            <p class="card__gender"><strong>Género:</strong>Zombies</p>
+            <p class="card__year"><strong>Año:</strong> </p>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title"></h2>
+          <img class="card_image" src="./images/marvel_rivals.png" alt="MarvelRivals" />
+          <p class="card__description"></p>
+          <div class="card__list">
+            <p class="card__gender"><strong>Género:</strong>Superheroes</p>
+            <p class="card__year"><strong>Año:</strong> </p>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title"></h2>
+          <img class="card_image" src="https://media.vandal.net/m/15191/20134794215_1.jpg" alt="GTA V" />
+          <p class="card__description"></p>
+          <div class="card__list">
+            <p class="card__gender"><strong>Género: Robos</strong> </p>
+            <p class="card__year"><strong>Año:</strong> </p>
+          </div>
+        </div>
+      </section>
+      <section class="trailers">
+        <div class="trailers__videos">
+          <iframe
+            class="video__iframe"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/FFWzIbkXxBU"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+          <p class="trailers__video-title">
+            Marvel Rivals <span>~3min</span>
+          </p>
+        </div>
+        <div class="trailers__videos">
+          <iframe
+            class="video__iframe"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/4rcMD2Ftt64"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+          <p class="trailers__video-title">
+            Call of Duty: Black Ops 6 <span>~2min</span>
+          </p>
+        </div>
+      </section>
+      <section class="contact">
+        
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy;2024 Franchesca Zelaya</p>
+    </footer>
   </body>
 </html>

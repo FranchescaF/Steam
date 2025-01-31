@@ -1,0 +1,49 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  list-style-type: none;
+  background-color: #d1c8e1; /* Fondo de las Tarjetas */
+  border: 4px solid #b370b0; /* Borde de las Tarjetas */
+  padding: 20px;
+  border-radius: 20px;
+  width: 380px; /* Ancho fijo para mantener el tamaño consistente */
+  height: 750px;
+  margin: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box;
+  position: relative; /* Necesario para el botón */
+  overflow: hidden; /* Oculta elementos fuera de la tarjeta */
+  transition: all 0.3s ease; /* Transición suave para todo */
+}
+.card__title {
+  color: #33102e; /* Color del Título de la Tarjeta */
+  margin-bottom: 10px;
+  font-size: 1.5rem; /* Tamaño del título */
+}
+.card_image {
+  max-width: 100%;
+  width: 270px;
+  border-radius: 10px;
+  max-height: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Transición para el efecto de zoom */
+}
+.card__description {
+  color: #87255b; /* Color del Texto de Descripción */
+  margin-top: 10px;
+}
+.card__list {
+  margin: 5px 0;
+  text-align: left; /* Alineación a la izquierda */
+}
+.card__gender {
+}
+.card__year {
+}
