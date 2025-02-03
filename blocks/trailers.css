@@ -1,0 +1,29 @@
+/* Estilos para la sección de trailers */
+.trailers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #2d2d2d; /* Fondo gris oscuro */
+}
+
+.trailers__videos {
+  margin: 15px;
+  text-align: center;
+}
+
+.video__iframe {
+  border-radius: 10px;
+  border: none;
+}
+
+.trailers__video-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #00ff99; /* Color de acento para títulos */
+}
+
+.trailers__video-title span {
+  font-size: 0.9rem;
+  color: #cccccc; /* Texto secundario */
+}

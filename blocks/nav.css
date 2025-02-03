@@ -1,7 +1,34 @@
+/* Estilos generales del nav */
 .nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  background-color: #2d2d2d; /* Fondo oscuro */
+  padding: 10px 20px;
 }
-.nav__options {
+
+/* Estilos de la lista */
+.nav__list {
+  list-style: none; /* Quita los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Coloca los ítems en línea */
+  justify-content: space-around; /* Distribuye el espacio entre ítems */
+}
+
+/* Estilos de cada ítem */
+.nav__item {
+  margin: 0 10px; /* Espacio entre ítems */
+}
+
+/* Estilos de los enlaces */
+.nav__link {
+  color: #ffffff; /* Color de texto */
+  text-decoration: none; /* Quita el subrayado */
+  font-family: "Poppins", sans-serif; /* Fuente moderna */
+  font-size: 1.1rem; /* Tamaño de fuente */
+  font-weight: bold; /* Texto en negrita */
+  transition: color 0.3s ease; /* Transición suave para el hover */
+}
+
+/* Efecto hover para los enlaces */
+.nav__link:hover {
+  color: #00ff99; /* Color de acento al pasar el mouse */
 }

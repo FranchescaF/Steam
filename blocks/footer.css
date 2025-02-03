@@ -3,13 +3,11 @@
   height: 18px;
   opacity: 1;
   display: flex;
-  justify-content: flex-end; /* Alinea el contenido a la derecha */
-  align-items: center; /* Alinea verticalmente el contenido al centro */
+  justify-content: center;
   margin: 67px auto 60px auto;
 }
 
 .footer__copyright {
-  font-family: "Inter", arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;

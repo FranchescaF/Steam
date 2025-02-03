@@ -1,0 +1,22 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif; /* Fuente principal para títulos */
+  color: #ffffff; /* Color de texto para títulos */
+  margin-top: 0;
+}
+
+.page {
+  color: white;
+  margin: auto;
+  font-family: "Inter", Arial, sans-serif; /* Asegura que haya una fuente de respaldo genérica */
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 1600px;
+  width: 100%;
+  display: block;
+  text-size-adjust: 100%; /* Esta propiedad ahora es estándar, prefijos eliminados */
+}
