@@ -1,10 +1,45 @@
+/* Portada */
 .portada {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
+  text-align: center;
+  padding: 20px;
 }
+
 .portada__image {
   width: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.portada__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.portada__subtitle {
+  font-size: 1.5rem;
+  margin: 30px 0;
+}
+
+.portada__button {
+  background-color: #1ca085;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.portada__button:hover {
+  background-color: #2ecc70;
 }
