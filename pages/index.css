@@ -9,6 +9,7 @@
 @import url("../blocks/cards.css");
 @import url("../blocks/about.css");
 @import url("../blocks/page.css");
+@import url("../blocks/footer.css");
 
 * {
   margin: 0;

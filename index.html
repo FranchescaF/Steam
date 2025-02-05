@@ -206,9 +206,95 @@
           </p>
         </div>
       </section>
+      <section class="contacto" id="contacto">
+        <form class="form">
+          <div class="form__group">
+            <label for="name" class="form__label">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form__input"
+              placeholder="Fatima Zelaya"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="email" class="form__label">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form__input"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="subject" class="form__label">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              class="form__input"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="message" class="form__label">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form__textarea"
+              placeholder="Your message..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="form__submit">SUBMIT</button>
+        </form>
+      </section>
     </main>
-    <footer class="footer">
-      <p class="footer__copyright">&copy;2025 Franchesca Zelaya</p>
+    <footer class="footer" id="contactos">
+      <div class="footer__content">
+        <div class="footer__column">
+          <img class="footer__logo" src="../images/logo.png" alt="Logo Steam" />
+          <p class="footer__copyright">&copy;2025 Franchesca Zelaya</p>
+        </div>
+        <div class="footer__social">
+          <h2 class="footer__social-heading">Redes Sociales</h2>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a
+                class="footer__social-link"
+                href="#facebook_icon"
+                id="link-facebook_icon"
+              >
+                <img
+                  class="footer__social-icon"
+                  src="../images/facebook_white.svg"
+                  alt="facebook_icon"
+                />
+                Facebook
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a
+                class="footer__social-link"
+                href="#instagram_icon"
+                id="link-instagram_icon"
+              >
+                <img
+                  class="footer__social-icon"
+                  src="../images/instagram_white.svg"
+                  alt="instagram_icon"
+                />
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
