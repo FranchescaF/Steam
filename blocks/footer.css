@@ -3,17 +3,21 @@
   color: #fff;
   margin: 0;
   overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__content {
   display: flex;
-  width: 90%;
+  width: 100%;
   margin: 0px;
 }
 
 .footer__logo {
   width: 105px;
-  height: 100px;
   margin: 0 0 0 80px;
 }
 
@@ -68,16 +72,6 @@
   justify-content: space-between;
   position: relative;
   margin-left: 80px;
-}
-/* Footer */
-.footer {
-  padding: 40px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer__copyright {

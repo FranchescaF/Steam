@@ -1,7 +1,11 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  background: #171a21;
 }
 
 .header__logo {
   width: 157px;
   height: 70px;
+  padding: 10px;
 }

@@ -1,0 +1,72 @@
+/* Estilos generales */
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  color: #fff;
+}
+
+/* Estilos del formulario */
+.form {
+  width: 100%;
+  max-width: 500px;
+  background: #2a475e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Grupo de inputs */
+.form__group {
+  margin-bottom: 20px;
+}
+
+/* Etiquetas */
+.form__label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Campos de entrada */
+.form__input,
+.form__textarea {
+  max-width: 100%;
+  width: 475px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form__input:focus,
+.form__textarea:focus {
+  border-color: #007bff;
+}
+
+/* Área de texto */
+.form__textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Botón de envío */
+.form__submit {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background-color: #417a9b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.form__submit:hover {
+  background-color: #4e697d;
+}
