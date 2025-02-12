@@ -7,13 +7,12 @@
     <meta name="author" content="Franchesca Fatima Zelaya" />
     <meta name="description" content="Página Web sobre Videojuegos" />
     <meta name="keywords" content="proyecto, html, css, steam, videojuegos" />
-    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="../pages/index.css" />
   </head>
   <body>
     <!--Encabezado principal-->
     <header>
-      <table width="100%">
+      <table width="100%" bgcolor="#2a475e">
         <tbody>
           <tr>
             <td width="50">
@@ -29,7 +28,7 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td><a href="./juegos.html">Juegos</a></td>
+                      <td><a class="header__nav-item" href="./juegos.html">Juegos</a></td>
                     </tr>
                   </tbody>
                 </table>
@@ -39,24 +38,57 @@
         </tbody>
       </table>
     </header>
-    <main id="contenedor">
-      <table width="100%">
-        <tbody>
-          <tr>
-            <td width="65%">
-              La esencia de los videojuegos son los personajes y sin ellos no
-              podriamos vivirlo tan apasionadamente.
-            </td>
-            <td width="35%">
-              <img
-                src="../images/personajes_portada.png"
-                alt="Portal"
-                width="100%"
-              />
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <main id="contenedor" align="center">
+      <center>
+        <table width="100%">
+          <tbody>
+            <tr>
+              <td width="65%" align="center">
+                La esencia de los videojuegos son los personajes y sin ellos no
+                podriamos vivirlo tan apasionadamente.
+              </td>
+              <td width="35%">
+                <img
+                  src="../images/personajes_portada.png"
+                  alt="Portal"
+                  width="100%"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </center>
+      <center>
+        <table border="1" width="50%">
+          <thead>
+            <tr>
+              <th>Personajes</th>
+              <th>Descripción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="../images/crane_personaje.webp" height="500px"></td>
+              <td><p>Originalmente Kyle Crane era un mercenario luego fue contratado por el SAI para después ser 
+                lanzado a la zona de cuarentena de la ciudad de Harran desde un avión.</p></td>
+            </tr>
+            <tr>
+              <td><img src="../images/Nick_personaje.webp" height="500px"></td>
+              <td><p>Nick es un hombre de tez blanca, lleva puesto un traje blanco de 3000 dólares 
+                y una camisa color azul eléctrico, también lleva varios anillos en los dedos.</p></td>
+            </tr>
+            <tr>
+              <td><img src="../images/Rochelle_personaje.webp" height="500px"></td>
+              <td><p>Es una asistente de producción en un canal de televisión, es originaria de Cleveland, Ohio.</p></td>
+            </tr>
+          </tbody>
+        </table>
+      </center>  
     </main>
+    <footer align="center">
+      <p>
+        &copy; 2025 Portal de Videojuegos. Todos los derechos reservados.
+      </p>
+    </footer>  
   </body>
 </html>
