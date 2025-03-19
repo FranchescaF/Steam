@@ -1,34 +1,33 @@
-/* Trailers */
-.trailers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px 20px;
+/* Estilos para la sección Steam */
+.introduction {
+  background: linear-gradient(135deg, #1b2838, #2a475e); /* Degradado azul oscuro */
+  color: white; /* Texto en blanco */
+  text-align: center;
+  padding: 50px 20px; /* Espaciado interno */
+  border-radius: 20px; /* Bordes redondeados */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+  max-width: 800px; /* Ancho máximo */
+  margin: 50px auto; /* Centrado */
+  transition: transform 0.3s ease-in-out; /* Animación */
 }
 
-.trailers__title {
-  font-size: 2rem;
+.introduction:hover {
+  transform: scale(1.05); /* Efecto de agrandar al pasar el mouse */
+}
+
+/* Estilos para el título */
+.title {
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
 }
 
-.trailers__videos {
-  width: 560px;
-  max-width: 100%;
-  margin-bottom: 0px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.video__iframe {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.trailers__video-title {
+/* Estilos para el párrafo */
+.description {
   font-size: 1.2rem;
-  margin-top: 10px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.9;
 }
