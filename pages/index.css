@@ -10,6 +10,7 @@
 @import url("../blocks/about.css");
 @import url("../blocks/page.css");
 @import url("../blocks/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
 * {
@@ -17,10 +18,11 @@
 }
 
 body {
-  background-color: #1b2838; /* Fondo principal */
+  background: linear-gradient(90deg, #0f0c29, #302b63, #24243e); /* Fondo principal */
   color: #ffffff; /* Texto principal */
   font-family: "Roboto", sans-serif; /* Fuente secundaria para textos */
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  min-height: 100vh;
 } 

@@ -1,1 +1,29 @@
+.introduction {
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(174, 0, 255, 0.8);
+    border: 2px solid #9900ff;
+    max-width: 800px;
+    margin-top: 30px ;
+}
+
+.title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    text-shadow: 3px 3px 10px #d400ff, -3px -3px 10px #00ffff;
+    letter-spacing: 2px;
+}
+
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+}
 

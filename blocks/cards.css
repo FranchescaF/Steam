@@ -1,42 +1,66 @@
-/* Cards */
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px 20px;
+.cards-container {
+    padding: 40px 20px;}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .card {
-  background-color: #2a475e;
-  border-radius: 10px;
-  padding: 20px;
-  width: 300px;
-  text-align: left;
-  transition: transform 0.3s;
+    background: #111;
+    border: 2px solid #8400ff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(132, 0, 255, 0.8);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgb(119, 0, 255);
 }
 
-.card__title {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
 }
 
-.card_image {
-  max-width: 100%;
-  height: 300px;
-  border-radius: 5px;
+.card-body {
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
 }
 
-.card__description {
-  font-size: 1rem;
-  margin: 10px 0;
+.card-title {
+    font-size: 1.2rem;
+    text-shadow: 3px 3px 10px #8c00ff, -3px -3px 10px #00ffff;
 }
 
-.card__list {
-  font-size: 0.9rem;
-  margin-top: 10px;
+.card-text {
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
+
+.btn-primary {
+    background: linear-gradient(90deg, #ff00ea, #8c00ff);
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #ea00ff, #a200ff);
+    box-shadow: 0px 0px 10px rgb(204, 0, 255);
+}
+

@@ -1,1 +1,77 @@
+.custom-navbar {
+  background: linear-gradient(90deg, #0f0c29, #302b63, #24243e); /* Estilo neón oscuro */
+  font-family: 'Press Start 2P', cursive; /* Fuente estilo pixel-art */
+  padding: 15px;
+}
+
+.navbar-brand {
+  color: #00ffea;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover {
+  color: #ff00ff;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff00ff !important;
+  text-shadow: 0px 0px 10px #ff00ff;
+}
+
+.dropdown-menu {
+  background: #1a1a2e;
+  border: 1px solid #ff00ff;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background: #ff00ff;
+  color: black;
+}
+
+/* Botón de búsqueda */
+.custom-btn {
+  background: #ff00ff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.custom-btn:hover {
+  background: #00ffea;
+  color: black;
+}
+
+/* Input de búsqueda */
+.custom-search {
+  background: #1a1a2e;
+  border: 2px solid #ff00ff;
+  color: white;
+  padding: 10px;
+}
+
+.custom-search::placeholder {
+  color: #ff00ff;
+}
+
+/* Estilos del botón hamburguesa */
+.navbar-toggler {
+  border-color: #ff00ff;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
 
