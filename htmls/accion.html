@@ -54,25 +54,41 @@
             <section class="cards-container">
                 <div class="cards-grid">
                   <!-- Counter-Strike -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('counterModal')">
                     <img src="../images/counter.jpg" class="card-img-top" alt="Counter-Strike">
                     <div class="card-body">
-                      <h5 class="card-title">Counter-Strike</h5>
-                      <p class="card-text">Un icónico shooter táctico donde dos equipos compiten en intensos combates estratégicos.</p>
-                      <a href="https://youtu.be/edYCtaNueQY?si=sClBfTJVv64k5D9d" class="btn btn-primary">🎬 Trailer</a>
+                        <h5 class="card-title">Counter-Strike</h5>
+                        <p class="card-text">Un icónico shooter táctico donde dos equipos compiten en intensos combates estratégicos.</p>
+                        <a href="https://youtu.be/edYCtaNueQY?si=sClBfTJVv64k5D9d" class="btn btn-primary">🎬 Trailer</a>
+                    </div>
+                </div>
+                  <!-- Modal de Counter-Strike -->
+                  <div id="counterModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('counterModal')">&times;</span>
+                        <h5>Counter-Strike</h5>
+                        <p>Counter-Strike es considerado uno de los juegos más influyentes en la historia de los videojuegos de disparos, conocido por su enfoque táctico y de equipo. Lanzado inicialmente como un mod para Half-Life en 1999, rápidamente se convirtió en uno de los títulos más populares en el género FPS y se mantuvo relevante a través de sus diversas iteraciones (como Counter-Strike: Global Offensive, la versión más reciente). El juego presenta partidas de equipo, donde cada jugador elige un rol específico, y la mecánica de "dinero por ronda" añade una capa de estrategia en la compra de armas y equipo.</p>
+                        <a href="https://youtu.be/edYCtaNueQY?si=sClBfTJVv64k5D9d" class="btn btn-primary">🎬 Trailer</a>
                     </div>
                   </div>
-              
                   <!-- DOOM Eternal -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('doomModal')">
                     <img src="../images/doom_juego.webp" class="card-img-top" alt="DOOM Eternal">
                     <div class="card-body">
                       <h5 class="card-title">DOOM Eternal</h5>
-                      <p class="card-text">Un frenesí de disparos contra demonios con una jugabilidad brutal y fluida.</p>
+                      <p class="card-text">DOOM Eternal es un juego de disparos donde los jugadores asumen el rol del Doom Slayer.</p>
                       <a href="https://youtu.be/6SRj82vc1Jg?si=OVDVh9TO5dXvobVm" class="btn btn-primary">🎬 Trailer</a>
                     </div>
                   </div>
-              
+                  <!-- Modal de DOOM Eternal -->
+                  <div id="doomModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('doomModal')">&times;</span>
+                        <h5>DOOM Eternal</h5>
+                        <p>DOOM Eternal lleva la saga a un nuevo nivel con un enfoque en la acción sin pausas. El juego introduce varias nuevas mecánicas como el "Glory Kill", que permite a los jugadores ejecutar movimientos brutales para recuperar salud, y la "Chainsaw", que ofrece una manera rápida y sangrienta de eliminar enemigos mientras obtienes munición. La música, compuesta por Mick Gordon, también es un elemento clave en la experiencia del juego, con intensas canciones de metal que acompañan la acción y aportan aún más adrenalina. DOOM Eternal es un homenaje a la saga original mientras lleva el concepto de "matar demonios" a nuevas alturas.                        </p>
+                        <a href="https://youtu.be/6SRj82vc1Jg?si=OVDVh9TO5dXvobVm" class="btn btn-primary">🎬 Trailer</a>
+                    </div>
+                  </div>
                   <!-- Call of Duty: Modern Warfare -->
                   <div class="card shadow">
                     <img src="../images/call_of_duty_juego.avif" class="card-img-top" alt="Call of Duty: Modern Warfare">

@@ -19,4 +19,24 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  
+// Función para abrir el modal
+function openModal(modalId) {
+  var modal = document.getElementById(modalId);
+  modal.style.display = "block";
+}
+
+// Función para cerrar el modal
+function closeModal(modalId) {
+  var modal = document.getElementById(modalId);
+  modal.style.display = "none";
+}
+
+// Cerrar el modal si el usuario hace clic fuera del contenido
+window.onclick = function(event) {
+  var modals = document.querySelectorAll('.modal');
+  modals.forEach(modal => {
+      if (event.target === modal) {
+          modal.style.display = "none";
+      }
+  });
+}

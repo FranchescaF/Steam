@@ -1,0 +1,143 @@
+/* Estilo general del modal */
+.modal-content {
+    background-color: #1e1e2f; /* Fondo oscuro tipo gamer */
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #00ffcc; /* Borde neón */
+    box-shadow: 0 0 15px #00ffcc;
+  }
+  
+  /* Encabezado del modal */
+  .modal-header {
+    border-bottom: 1px solid #00ffcc;
+    background-color: #2a2a40;
+  }
+  
+  .modal-body img {
+    width: 60%; /* o prueba con 50%, 40%, etc. según prefieras */
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 1rem auto; /* centrar y dar margen inferior */
+    border-radius: 10px;
+    border: 2px solid #00ffcc;
+  }
+
+  /* Título del modal */
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ffcc;
+  }
+  
+  /* Cuerpo del modal */
+  .modal-body p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .modal-body img {
+    border-radius: 10px;
+    border: 2px solid #00ffcc;
+  }
+  
+  /* Footer del modal */
+  .modal-footer {
+    border-top: 1px solid #00ffcc;
+    background-color: #2a2a40;
+  }
+  
+  /* Botón "Cerrar" */
+  .modal-footer .btn-secondary {
+    background-color: #ff4d6d;
+    border: none;
+    color: #fff;
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #e63956;
+  }
+  
+  /* Animación opcional al aparecer el modal */
+  .modal.fade .modal-dialog {
+    transform: translateY(-50px);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .modal.show .modal-dialog {
+    transform: translateY(0);
+  }
+  
+/* Estilos del Modal */
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo más oscuro para un estilo más dramático */
+  padding-top: 60px;
+}
+
+/* Estilo del contenido del modal */
+.modal-content {
+  background-color: #333; /* Fondo oscuro */
+  margin: 10% auto;
+  padding: 30px;
+  border: 3px solid #f39c12; /* Borde dorado, como un estilo de premio o acción */
+  border-radius: 10px;
+  width: 80%;
+  max-width: 700px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8); /* Sombra intensa para un efecto de profundidad */
+  animation: fadeIn 0.5s ease-in-out; /* Animación de aparición */
+  position: relative; /* Para permitir que la X se ubique en la esquina */
+}
+
+/* Estilo de cierre */
+.close {
+  color: #f39c12; /* Color de texto dorado */
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  position: absolute; /* Lo posicionamos de forma absoluta */
+  top: 10px; /* Distancia desde la parte superior */
+  right: 10px; /* Distancia desde la parte derecha */
+}
+
+.close:hover,
+.close:focus {
+  color: #e74c3c; /* Rojo brillante cuando se pasa el ratón */
+  text-decoration: none;
+}
+
+/* Animación de entrada para el modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Botón de abrir el modal */
+button {
+  background-color: #f39c12; /* Color de fondo dorado */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #e74c3c; /* Cambio de color al pasar el ratón */
+}
