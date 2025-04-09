@@ -53,9 +53,8 @@
           <div class="row mt-2">
             <section class="cards-container">
                 <div class="cards-grid">
-              
                   <!-- Leon S. Kennedy (Resident Evil) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalLeon')">
                     <img src="../images/leon_personaje.webp" class="card-img-top" alt="Leon S. Kennedy">
                     <div class="card-body">
                       <h5 class="card-title">Leon S. Kennedy</h5>
@@ -63,9 +62,19 @@
                       <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalLeon">ℹ️ Más info</a>
                     </div>
                   </div>
-              
+                  <!-- Modal para Leon Kennedy -->
+                    <div id="modalLeon" class="modal">
+                      <div class="modal-content">
+                        <span class="close" onclick="closeModal('modalLeon')">&times;</span>
+                          <h5>🛡️ Leon S. Kennedy</h5>
+                          <img src="../images/leon_personaje.webp" class="img-fluid mb-3" alt="Leon Kennedy">
+                          <p>
+                            Leon S. Kennedy es uno de los protagonistas más icónicos de la saga Resident Evil. Su primera aparición fue en Resident Evil 2 como un joven oficial novato de la policía de Raccoon City, quien llega justo el día en que estalla el brote del virus-T. A lo largo de la franquicia, evoluciona hasta convertirse en un agente especial del gobierno de los Estados Unidos, experto en operaciones antiterroristas y bioorgánicas. Es valiente, astuto y está altamente capacitado en combate cuerpo a cuerpo, armas de fuego y tácticas de supervivencia. Su personalidad combina el sentido del deber con un toque de sarcasmo, lo que le ha ganado la admiración de los fans. Leon es clave en títulos como Resident Evil 4, donde protagoniza una peligrosa misión para rescatar a la hija del presidente, enfrentándose a enemigos mutados y cultos siniestros.
+                          </p>
+                      </div>
+                  </div>
                   <!-- Doom Slayer (DOOM) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalDoom')">
                     <img src="../images/doom_personaje.webp" class="card-img-top" alt="Doom Slayer">
                     <div class="card-body">
                       <h5 class="card-title">Doom Slayer</h5>
@@ -75,7 +84,7 @@
                   </div>
               
                   <!-- Joel (The Last of Us) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalJoel')">
                     <img src="../images/joel_personaje.jpg" class="card-img-top" alt="Joel">
                     <div class="card-body">
                       <h5 class="card-title">Joel</h5>
@@ -85,7 +94,7 @@
                   </div>
               
                   <!-- Jill Valentine (Resident Evil) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalJill')">
                     <img src="../images/jill_personaje.webp" class="card-img-top" alt="Jill Valentine">
                     <div class="card-body">
                       <h5 class="card-title">Jill Valentine</h5>
@@ -95,7 +104,7 @@
                   </div>
               
                   <!-- Master Chief (Halo) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalMaster')">
                     <img src="../images/master_personaje.png" class="card-img-top" alt="Master Chief">
                     <div class="card-body">
                       <h5 class="card-title">Master Chief</h5>
@@ -105,7 +114,7 @@
                   </div>
               
                   <!-- Lara Croft (Tomb Raider) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalLara')">
                     <img src="../images/lara_personaje.webp" class="card-img-top" alt="Lara Croft">
                     <div class="card-body">
                       <h5 class="card-title">Lara Croft</h5>
@@ -115,7 +124,7 @@
                   </div>
               
                   <!-- Nemesis (Resident Evil 3) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalNemesis')">
                     <img src="../images/nemesis_personaje.webp" class="card-img-top" alt="Nemesis">
                     <div class="card-body">
                       <h5 class="card-title">Nemesis</h5>
@@ -125,7 +134,7 @@
                   </div>
               
                   <!-- Arthur Morgan (Red Dead Redemption 2) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalArthur')">
                     <img src="../images/arthur_personaje.png" class="card-img-top" alt="Arthur Morgan">
                     <div class="card-body">
                       <h5 class="card-title">Arthur Morgan</h5>
@@ -135,7 +144,7 @@
                   </div>
               
                   <!-- Ellie (The Last of Us) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalEllie')">
                     <img src="../images/ellie_personaje.webp" class="card-img-top" alt="Ellie">
                     <div class="card-body">
                       <h5 class="card-title">Ellie</h5>
@@ -145,7 +154,7 @@
                   </div>
               
                   <!-- Kratos (God of War) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalKratos')">
                     <img src="../images/kratos_personaje.png" class="card-img-top" alt="Kratos">
                     <div class="card-body">
                       <h5 class="card-title">Kratos</h5>
@@ -155,7 +164,7 @@
                   </div>
               
                   <!-- Chris Redfield (Resident Evil) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalChris')">
                     <img src="../images/chris_personaje.webp" class="card-img-top" alt="Chris Redfield">
                     <div class="card-body">
                       <h5 class="card-title">Chris Redfield</h5>
@@ -165,7 +174,7 @@
                   </div>
               
                   <!-- Frank West (Dead Rising) -->
-                  <div class="card shadow">
+                  <div class="card shadow" onclick="openModal('modalFrank')">
                     <img src="../images/frank_personaje.png" class="card-img-top" alt="Frank West">
                     <div class="card-body">
                       <h5 class="card-title">Frank West</h5>
@@ -184,52 +193,22 @@
         </div>
       </footer>
   </body>
-  <!-- Modal para Leon Kennedy -->
-  <div class="modal fade" id="modalLeon" tabindex="-1" aria-labelledby="modalLeonLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalLeonLabel">🛡️ Leon S. Kennedy</h5>
-        </div>
-        <div class="modal-body">
-          <img src="../images/leon_personaje.webp" class="img-fluid mb-3" alt="Leon Kennedy">
-          <p>
-            Leon S. Kennedy es uno de los protagonistas más icónicos de la saga Resident Evil. Su primera aparición fue en Resident Evil 2 como un joven oficial novato de la policía de Raccoon City, quien llega justo el día en que estalla el brote del virus-T. A lo largo de la franquicia, evoluciona hasta convertirse en un agente especial del gobierno de los Estados Unidos, experto en operaciones antiterroristas y bioorgánicas. Es valiente, astuto y está altamente capacitado en combate cuerpo a cuerpo, armas de fuego y tácticas de supervivencia. Su personalidad combina el sentido del deber con un toque de sarcasmo, lo que le ha ganado la admiración de los fans. Leon es clave en títulos como Resident Evil 4, donde protagoniza una peligrosa misión para rescatar a la hija del presidente, enfrentándose a enemigos mutados y cultos siniestros.
-          </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- Modal para Doom Slayer (DOOM) -->
-  <div class="modal fade" id="modalDoom" tabindex="-1" aria-labelledby="modalDoomLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div id="modalDoom" class="modal">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalDoomLabel">🛡️ Doom Slayer (DOOM)</h5>
-        </div>
-        <div class="modal-body">
+        <span class="close" onclick="closeModal('modalDoom')">&times;</span>
+        <h5>🛡️ Doom Slayer (DOOM)</h5>
           <img src="../images/doom_personaje.webp" class="img-fluid mb-3" alt="Doom Slayer">
           <p>
             El Doom Slayer, también conocido como Doomguy, es el imparable protagonista de la franquicia DOOM. Es una figura legendaria cuya furia contra los demonios no tiene límites, siendo temido incluso en el infierno. Su historia ha evolucionado desde un marine anónimo hasta convertirse en un ser casi mítico con fuerza sobrehumana.
           </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
   </div>
   <!--  Modal para Joel (The Last of Us) -->
-  <div class="modal fade" id="modalJoel" tabindex="-1" aria-labelledby="modalJoelLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal" id="modalJoel" >
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalJoel')">&times;</span>
           <h5 class="modal-title" id="modalJoelLabel">🛡️ Joel (The Last of Us)</h5>
-        </div>
-        <div class="modal-body">
           <img src="../images/joel_personaje.jpg" class="img-fluid mb-3" alt="Joel">
           <p>
             Joel Miller es un sobreviviente endurecido por las tragedias del apocalipsis. Es el protagonista principal del videojuego The Last of Us y una figura central en su secuela. Su historia es una montaña rusa emocional marcada por la pérdida, el trauma y la redención.
@@ -241,39 +220,28 @@
               <li>Tomador de decisiones difíciles: No duda en hacer lo que considera necesario para proteger a quienes ama, incluso si eso implica decisiones moralmente cuestionables.</li>
             </ul>
           </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
   </div>
   <!--  Modal para Jill Valentine (Resident Evil) -->
-  <div class="modal fade" id="modalJill" tabindex="-1" aria-labelledby="modalJillLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal " id="modalJill">
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalJill')">&times;</span>
           <h5 class="modal-title" id="modalJillLabel">🛡️ Jill Valentine (Resident Evil)</h5>
-        </div>
+      
         <div class="modal-body">
           <img src="../images/jill_personaje.webp" class="img-fluid mb-3" alt="Jill Valentine">
           <p>
             Jill Valentine es una de las protagonistas más icónicas de la serie Resident Evil. Originalmente presentada como miembro del equipo S.T.A.R.S. en Resident Evil 1, se ha convertido en un símbolo de valentía y resistencia en el mundo del horror de los videojuegos. Su inteligencia, habilidades de combate y capacidad para resolver acertijos la han convertido en una figura central en la lucha contra el bioterrorismo y las criaturas mutadas por el virus T. A lo largo de la serie, Jill ha enfrentado innumerables desafíos, desde escapar de mansiones infestadas hasta combatir organizaciones secretas como Umbrella y sus sucesores.
           </p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
   </div>
   <!--  Modal para Master Chief (Halo) -->
-  <div class="modal fade" id="modalMaster" tabindex="-1" aria-labelledby="modalMasterLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal " id="modalMaster" >
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalMaster')">&times;</span>
           <h5 class="modal-title" id="modalMasterLabel">🛡️ Master Chief (Halo)</h5>
-        </div>
+   
         <div class="modal-body">
           <img src="../images/master_personaje.png" class="img-fluid mb-3" alt="Master Chief">
           <p>
@@ -281,19 +249,15 @@
             <br>Criado desde niño para ser un soldado, Master Chief fue parte del controversial programa Spartan-II, en el que niños fueron secuestrados y modificados biológicamente para convertirse en soldados de élite. Su armadura característica, la Mjolnir Powered Assault Armor, le da una presencia imponente y lo convierte en una máquina de guerra casi invencible.
           </p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
+
   </div>
   <!--  Modal para Lara Croft (Tomb Raider) -->
-  <div class="modal fade" id="modalLara" tabindex="-1" aria-labelledby="modalLaraLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal " id="modalLara">
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalLara')">&times;</span>
           <h5 class="modal-title" id="modalLaraLabel">🛡️ Lara Croft (Tomb Raider)</h5>
-        </div>
+ 
         <div class="modal-body">
           <img src="../images/lara_personaje.webp" class="img-fluid mb-3" alt="Lara Croft">
           <p>
@@ -302,19 +266,15 @@
             Originalmente conocida por su estilo aventurero y atuendo característico, Lara ha evolucionado a lo largo de las décadas, pasando de una heroína estilizada de acción a una exploradora más humana y realista en los reboots modernos de la saga. Su historia, marcada por la pérdida, la supervivencia y el descubrimiento, ha capturado el corazón de generaciones de jugadores.
           </p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
+
   </div>
   <!--  Modal para  Nemesis (Resident Evil 3)  -->
-  <div class="modal fade" id="modalNemesis" tabindex="-1" aria-labelledby="modalNemesisLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal " id="modalNemesis" >
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalNemesis')">&times;</span>
           <h5 class="modal-title" id="modalNemesisLabel">🛡️ Nemesis (Resident Evil 3)</h5>
-        </div>
+        
         <div class="modal-body">
           <img src="../images/nemesis_personaje.webp" class="img-fluid mb-3" alt="Nemesis">
           <p>
@@ -329,19 +289,14 @@
             <li>🧟‍♂️ Imparable, incluso después de recibir daño severo</li>
           </ul>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
   </div>
   <!--  Modal para Arthur Morgan (Red Dead Redemption 2) -->
-  <div class="modal fade" id="modalArthur" tabindex="-1" aria-labelledby="modalArthurLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal " id="modalArthur">
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalArthur')">&times;</span>
           <h5 class="modal-title" id="modalArthurLabel">🛡️ Arthur Morgan (Red Dead Redemption 2)</h5>
-        </div>
+     
         <div class="modal-body">
           <img src="../images/arthur_personaje.png" class="img-fluid mb-3" alt="Arthur Morgan (Red Dead Redemption 2)">
           <p>Arthur Morgan es el protagonista principal del videojuego <strong>Red Dead Redemption 2</strong>, desarrollado por Rockstar Games. Es un <span class="highlight">forajido</span> y miembro de la banda Van der Linde. Nacido en 1863, Arthur es un hombre complejo, con un fuerte sentido de lealtad y un código moral que lo pone en conflicto con las acciones de su banda y la vida que lleva.</p>
@@ -350,19 +305,16 @@
         
         <p>Su historia se desarrolla en un mundo abierto que refleja la decadencia de la era del Viejo Oeste. La evolución de Arthur a través del juego está marcada por su enfermedad y su búsqueda por encontrar su propio camino, mientras trata de equilibrar su lealtad a la banda y sus propios principios.</p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
+
   </div>
   <!--  Modal para Ellie (The Last of Us) -->
-  <div class="modal fade" id="modalEllie" tabindex="-1" aria-labelledby="modalEllieLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal " id="modalEllie" >
+    
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalEllie')">&times;</span>
           <h5 class="modal-title" id="modalEllieLabel">🛡️ Ellie (The Last of Us)</h5>
-        </div>
+        
         <div class="modal-body">
           <img src="../images/ellie_personaje.webp" class="img-fluid mb-3" alt="Ellie (The Last of Us)">
           <p>Ellie es uno de los personajes principales del videojuego <strong>The Last of Us</strong>, desarrollado por Naughty Dog. Es una joven sobreviviente en un mundo post-apocalíptico, conocido por su inteligencia, valentía y una personalidad compleja.</p>
@@ -373,19 +325,16 @@
 
           <p>A través de su viaje, Ellie busca encontrar respuestas sobre su lugar en el mundo y sobre el misterioso poder de su inmunidad al virus que ha destruido a la humanidad.</p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
+
   </div>
   <!--  Modal para Kratos (God of War) -->
-  <div class="modal fade" id="modalKratos" tabindex="-1" aria-labelledby="modalKratosLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal " id="modalKratos" >
+    
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalKratos')">&times;</span>
           <h5 class="modal-title" id="modalKratosLabel">🛡️ Kratos (God of War)</h5>
-        </div>
+        
         <div class="modal-body">
           <img src="../images/kratos_personaje.png" class="img-fluid mb-3" alt="Kratos (God of War)">
           <p>Kratos es el protagonista principal de la serie de videojuegos <strong>God of War</strong>, desarrollada por Santa Monica Studio y publicada por Sony Interactive Entertainment. Conocido como el "Dios de la Guerra", Kratos es un guerrero espartano con una historia marcada por la violencia, la venganza y la redención.</p>
@@ -396,19 +345,16 @@
 
           <p>Kratos es un personaje complejo, marcado por sus errores pasados y su lucha constante por encontrar la paz, a pesar de la violencia que lo ha definido a lo largo de su vida.</p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
+
   </div>
   <!--  Modal para Chris Redfield (Resident Evil) -->
-  <div class="modal fade" id="modalChris" tabindex="-1" aria-labelledby="modalChrisLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal " id="modalChris">
+    
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalChris')">&times;</span>
           <h5 class="modal-title" id="modalChrisLabel">🛡️ Chris Redfield (Resident Evil)</h5>
-        </div>
+        
         <div class="modal-body">
           <img src="../images/chris_personaje.webp" class="img-fluid mb-3" alt="Chris Redfield (Resident Evil)">
           <p>Chris Redfield es uno de los protagonistas principales de la serie de videojuegos <strong>Resident Evil</strong>, desarrollada por Capcom. Es conocido por ser un miembro de la <strong>Unidad de Fuerzas Especiales de Racoon City (S.T.A.R.S.)</strong> y más tarde por su participación en la lucha contra las amenazas bioterroristas a nivel global.</p>
@@ -420,19 +366,15 @@
           <p>Chris Redfield es un personaje que representa la lucha contra la adversidad, siempre dispuesto a hacer lo necesario para salvar a la humanidad de los horrores creados por la biotecnología corrupta.</p>
 
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
+
   </div>
   <!--  Modal para Frank West (Dead Rising) -->
-  <div class="modal fade" id="modalFrank" tabindex="-1" aria-labelledby="modalFrankLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+  <div class="modal" id="modalFrank" >
       <div class="modal-content">
-        <div class="modal-header">
+        <span class="close" onclick="closeModal('modalFrank')">&times;</span>
           <h5 class="modal-title" id="modalFrankLabel">🛡️ Frank West (Dead Rising)</h5>
-        </div>
+        
         <div class="modal-body">
           <img src="../images/frank_personaje.png" class="img-fluid mb-3" alt="Frank West (Dead Rising)">
           <p>Frank West es el protagonista principal de la serie de videojuegos <strong>Dead Rising</strong>, desarrollada por Capcom. Es un periodista de investigación, conocido por su valentía y su enfoque poco convencional para cubrir las noticias. Su historia comienza cuando llega a la ciudad de Willamette, Colorado, para cubrir un incidente en el centro comercial local, solo para descubrir que un brote de zombis ha devastado la ciudad.</p>
@@ -444,11 +386,7 @@
           <p>Su capacidad para improvisar y utilizar cualquier objeto como arma lo hace muy efectivo en combate, y su enfoque como periodista lo lleva a investigar a fondo las causas detrás de los brotes de zombis, lo que lo convierte en un héroe poco convencional en un mundo lleno de horror.</p>
 
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
       </div>
-    </div>
   </div>
   <script src="../index.js"></script>
 </html>
